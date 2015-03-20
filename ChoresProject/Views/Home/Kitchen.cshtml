@@ -1,7 +1,17 @@
-﻿@{
-    ViewBag.Title = "Kitchen";
-}
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+﻿@model ChoresProject.Models.ChoreViewModel
 
-<p>Use this area to provide additional information.</p>
+    @{
+        ViewBag.Title = "Kitchen";
+    }
+
+
+    <div>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Chore</th>
+                <th>Completed</th>
+                <th>Date Assigned</th>
+            </tr>
+        </table>
+    </div>
