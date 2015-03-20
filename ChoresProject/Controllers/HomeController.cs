@@ -29,7 +29,8 @@ namespace ChoresProject.Controllers
                new Chores(){ID=4, Chore="Kitchen Clean Refridgerator", isCompleted=false, ChoreAssigned=DateTime.Now.AddDays(-4)},
             };
 
-            return View(viewModel1);
+            viewModel.myChores = kList;
+            return View(viewModel);
         }
 
         public ActionResult Bedroom() // Bedroom Chores Only 
@@ -44,7 +45,7 @@ namespace ChoresProject.Controllers
                 new Chores(){ID=3, Chore="Bedroom Repair Headboard", isCompleted=true, ChoreAssigned=DateTime.Now.AddDays(-8)},
                 new Chores(){ID=4, Chore="Bedroom Bury Dead Body", isCompleted=true, ChoreAssigned=DateTime.Now.AddDays(-10)},
             };
-
+            viewModel2.myChores2 = bList;
             return View(viewModel2);
         }
     }

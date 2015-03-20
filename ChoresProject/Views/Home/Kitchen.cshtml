@@ -6,12 +6,21 @@
 
 
     <div>
-        <table>
+        <table class="table table-bordered table-striped">
             <tr>
                 <th>ID</th>
                 <th>Chore</th>
                 <th>Completed</th>
                 <th>Date Assigned</th>
             </tr>
+            @foreach(var k in Model.MyChores)
+            {
+                <tr>
+                    <td>@k.ID</td>
+                    <td>@k.Chore</td>
+                    <td>@k.isCompleted</td>
+                    <td>@k.ChoreAssigned</td>
+                </tr>
+            }
         </table>
     </div>
