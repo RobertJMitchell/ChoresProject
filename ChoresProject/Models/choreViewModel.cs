@@ -5,7 +5,8 @@ using System.Web;
 
 namespace ChoresProject.Models
 {
-    public class choreViewModel
+    public class ChoreViewModel
     {
+        public List<Chores> MyChores { get; set; }
     }
 }
