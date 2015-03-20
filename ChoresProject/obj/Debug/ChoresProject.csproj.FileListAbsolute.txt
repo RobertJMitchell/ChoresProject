@@ -21,6 +21,6 @@ c:\users\rj\documents\visual studio 2013\Projects\ChoresProject\ChoresProject\bi
 c:\users\rj\documents\visual studio 2013\Projects\ChoresProject\ChoresProject\bin\System.Web.WebPages.Razor.xml
 c:\users\rj\documents\visual studio 2013\Projects\ChoresProject\ChoresProject\bin\Antlr3.Runtime.pdb
 c:\users\rj\documents\visual studio 2013\Projects\ChoresProject\ChoresProject\bin\Newtonsoft.Json.xml
-c:\users\rj\documents\visual studio 2013\Projects\ChoresProject\ChoresProject\obj\Debug\ChoresProject.csprojResolveAssemblyReference.cache
 c:\users\rj\documents\visual studio 2013\Projects\ChoresProject\ChoresProject\obj\Debug\ChoresProject.dll
 c:\users\rj\documents\visual studio 2013\Projects\ChoresProject\ChoresProject\obj\Debug\ChoresProject.pdb
+C:\Users\RJ\documents\visual studio 2013\Projects\ChoresProject\ChoresProject\obj\Debug\ChoresProject.csprojResolveAssemblyReference.cache
